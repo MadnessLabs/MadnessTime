@@ -1,0 +1,63 @@
+#clock {
+  width: 250;
+  height: 250;
+  x: 50%-125;
+  y: 50%-125;
+}
+
+#bat {
+  transform: translate(100%-78,163);
+}
+
+#bat-body {
+  y: 4;
+  x: 3;
+  height: 16;
+  width: 22;
+  fill: #FFFFFF;
+}
+
+#bat-head {
+  y: 8;
+  x: 25;
+  height: 8;
+  width: 2;
+  fill: #FFFFFF;
+}
+
+#bat-fill {
+  y: 6;
+  height: 12;
+  x: 5;
+  width: 19;
+  fill: green;
+}
+
+#bat-count {
+  font-size: 25;
+  text-anchor: start ;
+  x: 35;
+  y: 20;
+}
+
+text {
+  fill: #FFFFFF;
+  text-length: 250;
+  text-anchor: middle;
+}
+
+#dayNumber {
+  x: 50%;
+  y: 50%+5;
+  font-size: 50;
+  font-weight: bold;
+  font-family: Seville-Book;
+}
+
+#dayName {
+  x: 50%;
+  y: 50%+35;
+  font-size: 16;
+  font-weight: bold;
+  font-family: Seville-Bold;
+}

@@ -1,0 +1,39 @@
+{
+  "name": "@madnesslabs/madnesstime",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madnesslabs/madnesstime.git"
+  },
+  "author": "Madness Labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madnesslabs/madnesstime/issues"
+  },
+  "homepage": "https://github.com/madnesslabs/madnesstime",
+  "fitbit": {
+    "appUUID": "d744edfe-63a4-4bbb-b11c-99ff5383038e",
+    "appType": "clockface",
+    "appDisplayName": "MadnessTime",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_exercise",
+      "access_activity",
+      "access_location"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "MadnessTime"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0"
+  }
+}

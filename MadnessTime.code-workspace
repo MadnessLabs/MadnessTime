@@ -1,0 +1,14 @@
+{
+    "folders": [
+      {
+        "path": "."
+      }
+    ],
+    "settings": {
+      "editor.tabSize": 2,
+      "editor.detectIndentation": false,
+      "editor.formatOnSave": true,
+      "todo-tree.flat": true,
+      "todo-tree.expanded": true
+    }
+  }

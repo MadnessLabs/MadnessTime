@@ -1,0 +1,32 @@
+<svg id="root" class="background">
+  <image href="watch-background.jpg" />
+  <svg id="clock">
+    <arc id="arcSeconds" x="10" y="10" width="100%-20" height="100%-20" fill="#07b2fc"
+         arc-width="15" start-angle="0" sweep-angle="0">
+      <animate attributeName="opacity" begin="disable" from="0.4" to="0" dur="0.2" final="keep" />
+      <animate attributeName="opacity" begin="enable+1" from="0" to="0.4" dur="0.2" final="keep" />
+    </arc>
+    <arc id="arcMinutes" x="30" y="30" width="100%-60" height="100%-60" fill="#07b2fc"
+         arc-width="15" start-angle="0" sweep-angle="0">
+      <animate attributeName="opacity" begin="disable+0.4" from="0.6" to="0" dur="0.4" final="keep" />
+      <animate attributeName="opacity" begin="enable+0.6" from="0" to="0.6" dur="0.4" final="keep" />
+    </arc>
+    <arc id="arcHours" x="50" y="50" width="100%-100" height="100%-100" fill="#07b2fc"
+      arc-width="15" start-angle="0" sweep-angle="0">
+      <animate attributeName="opacity" begin="disable+0.6" from="0.8" to="0" dur="0.6" final="keep" />
+      <animate attributeName="opacity" begin="enable" from="0" to="0.8" dur="0.6" final="keep" />
+    </arc>
+  </svg>
+  
+  <svg id="bat"> 
+    <g id="bat-shell">
+      <rect id="bat-body"/>
+      <rect id="bat-head"/>
+    </g>
+    <rect id="bat-fill"/>
+    <text id="bat-count" class="count sideCount">87</text>   
+  </svg> 
+
+  <text id="dayNumber" />
+  <text id="dayName" />
+</svg>
